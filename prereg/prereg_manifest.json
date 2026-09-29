@@ -1,0 +1,147 @@
+{
+  "study": "Motion Canonical round 2",
+  "statement": "Analysis plan fixed before scoring. As of this commit no response has been compared with ground truth.",
+  "created_utc": "2026-09-29T22:29:56.414778+00:00",
+  "plan": {
+    "file": "SAP_v1.md",
+    "sha256": "929c5ad14cbd390627c1fb70ff9ee7609405cfb59656ed1cb5b916ed426a9b0b"
+  },
+  "library_in_use": {
+    "version": "mc2-lib-1.1.0",
+    "sha256": "71ed65c92d59664f8bd450a13441bce981bb3d39e275bab40f48ca73c983b5b6"
+  },
+  "files": [
+    {
+      "path": "mc2/prereg/SAP_v1.md",
+      "bytes": 13100,
+      "sha256": "929c5ad14cbd390627c1fb70ff9ee7609405cfb59656ed1cb5b916ed426a9b0b"
+    },
+    {
+      "path": "mc2/inputs/inputs_manifest.json",
+      "bytes": 880,
+      "sha256": "36193fbdafc56f8c888af8e6eeb49a641e0efe339601e55128ac7b6c9754b089"
+    },
+    {
+      "path": "mc2/inputs/registry.csv",
+      "bytes": 68772,
+      "sha256": "c96f090917b252f15391933c03ffe130feb8f97c5058b114d69a2e66273bc9f0"
+    },
+    {
+      "path": "mc2/_KEY_DO_NOT_SHIP/truth.csv",
+      "bytes": 29057,
+      "sha256": "dc6e67636f8a3bb4d4e9d8a80bb35926cf7ed31d8aca1ad5764aa60837d239f5"
+    },
+    {
+      "path": "mc2/config/models.json",
+      "bytes": 1025,
+      "sha256": "da206721ff488dbf9293314b7046db62be038cf6069221aed9131f1bb1ac385c"
+    },
+    {
+      "path": "mc2/code/mc_lib.py",
+      "bytes": 27995,
+      "sha256": "71ed65c92d59664f8bd450a13441bce981bb3d39e275bab40f48ca73c983b5b6"
+    },
+    {
+      "path": "mc2/code/mc_lib_1.0.0_SUPERSEDED.py",
+      "bytes": 26973,
+      "sha256": "009add6edfc7ae506502286b572cea3c30cd6825d1081ae484b9acd85cd7cd9e"
+    },
+    {
+      "path": "mc2/code/mc_lib_1.0.1_PRIMARY_RUN.py",
+      "bytes": 27083,
+      "sha256": "c3205127068e7838c94807fda0030f0d4cfe0aa1bd8e118956e9da67f3c45063"
+    }
+  ],
+  "runs": {
+    "mc2_20260928T052340Z": {
+      "n_call_records": 12460,
+      "files": [
+        {
+          "path": "mc2/runs/mc2_20260928T052340Z/run_config.json",
+          "bytes": 5969,
+          "sha256": "de31b33db3865f1656c5e64e3ef8ce564afd72e076dea2f8eb90ee8a34aa0f78"
+        },
+        {
+          "path": "mc2/runs/mc2_20260928T052340Z/queue.jsonl",
+          "bytes": 1929330,
+          "sha256": "7711721a913b5e32ae3051b1627dbed48dc3cb06b0c2e009f107b5a660bf4de8"
+        },
+        {
+          "path": "mc2/runs/mc2_20260928T052340Z/calls.jsonl",
+          "bytes": 55114842,
+          "sha256": "98fcc3096dc9f5db232cac71184cf86d8278b2799ade5ae0fe608f40bf5ae986"
+        },
+        {
+          "path": "mc2/runs/mc2_20260928T052340Z/served_model_lock.json",
+          "bytes": 123,
+          "sha256": "a28586857d8e5507c9cc4f6863f793a4c941bbc78c2851d47cc06f6517fe1a21"
+        },
+        {
+          "path": "mc2/runs/mc2_20260928T052340Z/monitor_summary.json",
+          "bytes": 5557,
+          "sha256": "fb718fba3d6789fa849cbafe3eab3b3b3e7620653f48c8aeaf5ed5833c7b35b0"
+        }
+      ]
+    },
+    "mc2reason_20260929T040656Z": {
+      "n_call_records": 1500,
+      "files": [
+        {
+          "path": "mc2/runs/mc2reason_20260929T040656Z/run_config.json",
+          "bytes": 2058,
+          "sha256": "15890f032cbcdbe7986f728c9d836502cf5b396174c065d2283bf0a9dbfe9a98"
+        },
+        {
+          "path": "mc2/runs/mc2reason_20260929T040656Z/queue.jsonl",
+          "bytes": 235140,
+          "sha256": "ae54b01e9f4a78c35fd11d19da48900a3b506e5a9c2d04a9cd313fcd7f85d40e"
+        },
+        {
+          "path": "mc2/runs/mc2reason_20260929T040656Z/calls.jsonl",
+          "bytes": 7160723,
+          "sha256": "cecc04e7665abc70c961448281062884fa3e913f25bc9b2842d2d2aa773b9da8"
+        },
+        {
+          "path": "mc2/runs/mc2reason_20260929T040656Z/served_model_lock.json",
+          "bytes": 64,
+          "sha256": "2703a83b14e0e21a595a468545a11edfd71e7e4d5ad1ab5ce860688c646dd471"
+        },
+        {
+          "path": "mc2/runs/mc2reason_20260929T040656Z/monitor_summary.json",
+          "bytes": 1841,
+          "sha256": "a69212a3f140aceed5deaea6e2a3d6b2f0d3f7a05621e32c626a17319f6fa477"
+        }
+      ]
+    },
+    "mc2maxreason_20260929T045331Z": {
+      "n_call_records": 1500,
+      "files": [
+        {
+          "path": "mc2/runs/mc2maxreason_20260929T045331Z/run_config.json",
+          "bytes": 2273,
+          "sha256": "7ba78245e225f584d356403257a9569537b712fed77b94cc48efb723a786fe97"
+        },
+        {
+          "path": "mc2/runs/mc2maxreason_20260929T045331Z/queue.jsonl",
+          "bytes": 235140,
+          "sha256": "dbdc79d3ddfa9f2cbbe3a2d519d057fce3d99cc35d965f2f74a856190f20b86d"
+        },
+        {
+          "path": "mc2/runs/mc2maxreason_20260929T045331Z/calls.jsonl",
+          "bytes": 16438138,
+          "sha256": "95ddd8bd187b4d8aa82a007a9d474381f3dfdb34e082023570a73ee62adee166"
+        },
+        {
+          "path": "mc2/runs/mc2maxreason_20260929T045331Z/served_model_lock.json",
+          "bytes": 64,
+          "sha256": "1b7c314ffeee15d6375b8a7660c67f678379c1100ce5cb0291e35764bcfee4a2"
+        },
+        {
+          "path": "mc2/runs/mc2maxreason_20260929T045331Z/monitor_summary.json",
+          "bytes": 2179,
+          "sha256": "c5bd27568a482d6986ed0a88a4212548f45b008655f03a51c15c773841c89b31"
+        }
+      ]
+    }
+  }
+}
