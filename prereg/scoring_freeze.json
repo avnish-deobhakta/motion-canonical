@@ -1,0 +1,34 @@
+{
+  "statement": "Everything that determines a score, frozen after blind clinician review and before truth.csv was joined.",
+  "created_utc": "2026-09-30T03:44:41.299135+00:00",
+  "review_fingerprint": "5384f7cd7757bc9224458b784a6a3df5d523a8d01710de0ed4a43b0256db59e8",
+  "review_source": "google_sheet:15OrJ3o-11Iv6qkrklCePq8X1Y591XjKU7JglgzAzE64",
+  "files_sha256": {
+    "scoring_overrides.csv": "ae27bd5205cb149b9d64f87e150b41d15254f7d92da14f343e0e5c8c167b393d",
+    "scoring_clarifications.md": "3e0ad2921860a084e83b19174ed14118581e46f69dfaaa6547231791b7361b1a",
+    "mapping_proposed.csv": "d0330f77e944a588b86ded87973c5568c529169a8734d6455d214cdf6a296b42",
+    "review_queue.csv (rule proposals, untouched)": "477229343a483560d4610d20a94e11aaaa32625f5c08b4e871dc4042b1387a61",
+    "freetext_ontology_draft.csv": "6ca110a605c9b77c926c238b151f08759976e0fc6fda7a76b1829a3aeb19e028",
+    "injection_classes.csv": "3fc613282a43965c61eb50dc256d296754f30a0cbdc0d4380ebb8cead5c37f97"
+  },
+  "code_sha256": {
+    "mc_analysis.py": "1267c7f8c9afccf75ff0bd28a197c0fad979dbfdf2a039aa45ed6a2b506b04d8",
+    "mc_analyze.py": "50f1b8ecba1bcaeecc90dadf64ba4d111d48c24fac5db4bc6406f1f3366ea47d",
+    "mc_lib.py": "71ed65c92d59664f8bd450a13441bce981bb3d39e275bab40f48ca73c983b5b6",
+    "mc_rules.py": "f2f8519707c108c8f1202dd25a87b391df257ff09947917cb02b8c35afd379b2",
+    "mc_score.py": "824a478202f0bb7f7a77eb43330d771ca1ad1dd894b711ff66da6493ac34e8c2",
+    "mc_stats.py": "dfaf18e84ceeda38c283737d615a372ee8f78e395fe6f640ddecb727e5e7d532"
+  },
+  "versions": {
+    "lib": "mc2-lib-1.1.0",
+    "analysis": "mc2-analysis-0.1.2",
+    "rules": "mc2-rules-1.2.0",
+    "score": "mc2-score-1.0.1",
+    "stats": "mc2-stats-1.1.0",
+    "analyze": "mc2-analyze-1.0.0"
+  },
+  "class_map": {
+    "n_strings": 5822,
+    "sha256": "b39aa78d7fd3e79f62ed726fb2147f5555e9d4fd3f2fbebed2d4c00d23082d34"
+  }
+}
