@@ -1,0 +1,13 @@
+{
+  "statement": "Scoring configuration files, committed after the analysis plan (SAP_v1.md) and before truth.csv was joined or any free-text string was adjudicated.",
+  "created_utc": "2026-09-30T00:25:04.925508+00:00",
+  "files": {
+    "freetext_ontology_draft.csv": {
+      "sha256": "6ca110a605c9b77c926c238b151f08759976e0fc6fda7a76b1829a3aeb19e028"
+    },
+    "injection_classes.csv": {
+      "sha256": "3fc613282a43965c61eb50dc256d296754f30a0cbdc0d4380ebb8cead5c37f97"
+    }
+  },
+  "plan_commit": "4cb76ee5a05baf14240b20f00923ba1293683c59"
+}
