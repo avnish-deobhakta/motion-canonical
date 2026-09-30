@@ -1,0 +1,42 @@
+{
+  "statement": "Free-text mapping rules fixed before clinician review and before truth.csv was joined.",
+  "created_utc": "2026-09-30T00:53:34.554526+00:00",
+  "rules_version": "mc2-rules-1.2.0",
+  "mc_rules_sha256": "f2f8519707c108c8f1202dd25a87b391df257ff09947917cb02b8c35afd379b2",
+  "validation_against_august_ontology": {
+    "v1.1_split_validation": {
+      "dev": {
+        "strings": 685,
+        "high_share": 0.686,
+        "class_agreement_high": 0.996,
+        "class_agreement_high_response_weighted": 0.999,
+        "icdr_agreement_high": 1.0
+      },
+      "test": {
+        "strings": 685,
+        "high_share": 0.702,
+        "class_agreement_high": 0.988,
+        "class_agreement_high_response_weighted": 0.987,
+        "icdr_agreement_high": 0.99
+      }
+    },
+    "v1.2_full": {
+      "rules_version": "mc2-rules-1.2.0",
+      "all_august_strings": 1370,
+      "auto_decided_share": 0.866,
+      "auto_agreement": 0.991,
+      "auto_agreement_response_weighted": 0.994,
+      "note": "v1.1 held-out test (before cue rules): 70.2% auto-decided at 98.8% agreement. v1.2 figures are on all 1,370 strings, half of which were used for rule development."
+    }
+  },
+  "review_design": {
+    "must": "low-confidence strings that were a primary answer",
+    "optional": "low-confidence, differential only; blank keeps rule proposal",
+    "august_conflict": "August mapping contradicted by high-confidence rule; blank keeps August"
+  },
+  "counts": {
+    "optional": 517,
+    "must": 324,
+    "august_conflict": 2
+  }
+}
