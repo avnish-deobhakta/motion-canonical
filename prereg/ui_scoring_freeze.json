@@ -1,0 +1,35 @@
+{
+  "statement": "Chat-interface scoring frozen after blind review of new strings and before truth.csv was joined.",
+  "created_utc": "2026-10-15T22:52:08.942165+00:00",
+  "ui_responses_snapshot_sha256": "928d3d62939aebac2533d0e0f4b0532c302cdad6dd7b14e1d8d25116b2533ff2",
+  "api_class_map_sha256": "b39aa78d7fd3e79f62ed726fb2147f5555e9d4fd3f2fbebed2d4c00d23082d34",
+  "ui_review_fingerprint": "08b550255eb79d4e0ac93be602d55b3407a02d7a61996c9708268b995987edb7",
+  "ui_review_rows": 49,
+  "ui_class_map_additions": {
+    "n": 232,
+    "sha256": "a39cf92acb7f8b4207a7c41a551e3d7c4370807f7e476f3b59392a7843287306",
+    "by_source": {
+      "ui_rules_high": 183,
+      "ui_rules_low": 23,
+      "ui_review_must": 18,
+      "ui_review_optional": 8
+    }
+  },
+  "parse_status": {
+    "ok": 480
+  },
+  "model_mismatch_tasks": 0,
+  "api_comparator": {
+    "results": "results_20260930T034445Z",
+    "scored_calls_sha256": "049e69061c6f094842ba9c4ce5c95a743b8971dc4e0a94b66e5ccf14fc40927a"
+  },
+  "code_sha256": {
+    "mc_analysis.py": "1267c7f8c9afccf75ff0bd28a197c0fad979dbfdf2a039aa45ed6a2b506b04d8",
+    "mc_analyze.py": "50f1b8ecba1bcaeecc90dadf64ba4d111d48c24fac5db4bc6406f1f3366ea47d",
+    "mc_lib.py": "71ed65c92d59664f8bd450a13441bce981bb3d39e275bab40f48ca73c983b5b6",
+    "mc_rules.py": "f2f8519707c108c8f1202dd25a87b391df257ff09947917cb02b8c35afd379b2",
+    "mc_score.py": "824a478202f0bb7f7a77eb43330d771ca1ad1dd894b711ff66da6493ac34e8c2",
+    "mc_stats.py": "dfaf18e84ceeda38c283737d615a372ee8f78e395fe6f640ddecb727e5e7d532"
+  },
+  "analysis": "SAP_addendum_ui_v1.md with Amendment 1"
+}
