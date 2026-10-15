@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-15T16:17:47.376620+00:00",
+  "sheet_id": "1BLuws9G6EyTD0JrEmkLyBoYSmP9J3nfM-Al9_2ya2U4",
+  "snapshot_file": "mc2/ui_arm/ui_responses_frozen.csv",
+  "snapshot_sha256": "928d3d62939aebac2533d0e0f4b0532c302cdad6dd7b14e1d8d25116b2533ff2",
+  "n_tasks": 480,
+  "task_order_sha256": "b49b85b6847a95dda8b5603ba79ae450a9824ec173ce1d93356b5cd56e39932c",
+  "task_order_cells_differing": 0,
+  "blank_replies": 0,
+  "refused_Y": 0,
+  "first_date": "2026-10-05",
+  "last_date": "2026-10-15",
+  "repeat_rule_violations": 0,
+  "amendment": "prereg/SAP_addendum_ui_v1_amendment1.md",
+  "override_used": false,
+  "statement": "Chat-interface replies frozen after all 480 tasks and before any reply was scored or analysed."
+}
