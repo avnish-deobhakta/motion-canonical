@@ -1,0 +1,33 @@
+{
+  "utc": "2026-10-16T05:52:59.201337+00:00",
+  "models": {
+    "anthropic": "claude-fable-5-1",
+    "openai": "gpt-6-astra",
+    "google": "gemini-4-argon",
+    "xai": "grok-4.7",
+    "jev": "typesafe/jev-1.14"
+  },
+  "served_models_at_probe": {
+    "anthropic": [
+      "claude-fable-5-1"
+    ],
+    "google": [
+      "gemini-4-argon"
+    ],
+    "openai": [
+      "gpt-6-astra"
+    ],
+    "xai": [
+      "grok-4.7"
+    ]
+  },
+  "qwen": {
+    "model_id": "Qwen/Qwen3.8-27B",
+    "revision": null
+  },
+  "jev_text_ok": true,
+  "jev_image_ok": true,
+  "lib_version": "dr6-lib-0.3.1",
+  "jev_served": "typesafe/jev-1.14-20261014",
+  "jev_checked_utc": "2026-10-16T19:27:25.511544+00:00"
+}
