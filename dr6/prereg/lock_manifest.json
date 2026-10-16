@@ -1,0 +1,18 @@
+{
+  "lib_version": "dr6-lib-0.3.1",
+  "lib_sha256": "e42db9f21b455ec743d0bf7ef31331d2f228ff18a1a6c7356358e18dc1744153",
+  "sap_sha256": "864d6fcbe2f48629997f124e54a3017dd20f27642b1d03e074a04277f4413f55",
+  "registry_sha256": "f73a1eefca7a8ae83807b47f61e2f6c66ce2891d256799e5e2a6f6dc9e17d11d",
+  "key_sha256": "71e1505f316ebfae4d3741c0f2a5a6891c5d72d22221b3aca0b3ea4a63b017b5",
+  "n_images": 1593,
+  "by_dataset": {
+    "aptos": 240,
+    "brset": 340,
+    "ddr": 340,
+    "eyepacs": 240,
+    "idrid": 217,
+    "sustech": 216
+  },
+  "seed": 20261016,
+  "utc": "2026-10-16T20:13:49.573426+00:00"
+}
