@@ -1,0 +1,14 @@
+{
+  "api": {
+    "path": "retina_image_ai/dr6/runs/stage1_api/calls.jsonl",
+    "sha256": "567594c7854ed66d82d5408fe8736a60b5e7645e014c5b4b10bd14835c5e0bd6",
+    "lines": 20049,
+    "frozen_utc": "2026-10-17T04:57:14.737177+00:00"
+  },
+  "qwen": {
+    "path": "retina_image_ai/dr6/runs/stage1_qwen/calls.jsonl",
+    "sha256": "9b271781286b25d219e8c7c75151a72ea1e7c3c7e944e899ecc6982bdfe6af16",
+    "lines": 6372,
+    "frozen_utc": "2026-10-17T04:57:15.104983+00:00"
+  }
+}
