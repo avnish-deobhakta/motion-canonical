@@ -1,0 +1,33 @@
+{
+  "stage2": {
+    "path": "retina_image_ai/dr6/runs/stage2/calls.jsonl",
+    "sha256": "2927f89d2d0cc24640d9b4be653d18b3d7a14c30f582aba70aa6ae29d93290d4",
+    "lines": 11617,
+    "frozen_utc": "2026-10-17T20:16:49.268796+00:00"
+  },
+  "stage2_qwen": {
+    "path": "retina_image_ai/dr6/runs/stage2_qwen/calls.jsonl",
+    "sha256": "03e7ce1aabfdfa9f72eb5f032884f8274dbc1799c068affe2ca89a9487443543",
+    "lines": 1593,
+    "frozen_utc": "2026-10-17T20:16:49.406657+00:00"
+  },
+  "rule": {
+    "path": "retina_image_ai/dr6/runs/stage2/rule_grades.csv",
+    "sha256": "f1fb087aafb9de3eaf612c6292c855a451af60f2055513456c0f0c82afab7c84",
+    "lines": 6606,
+    "frozen_utc": "2026-10-17T20:16:49.414643+00:00"
+  },
+  "human": {
+    "path": "retina_image_ai/dr6/runs/stage2/text_grading_done.csv",
+    "sha256": "ebc63cfbde2a3b8ec43357cfadc3c0123709030434f7955af26ae46d4f689777",
+    "lines": 5981,
+    "frozen_utc": "2026-10-17T20:16:49.714124+00:00"
+  },
+  "jev_image": {
+    "path": "retina_image_ai/dr6/runs/stage2_jev_image/calls.jsonl",
+    "sha256": "ec9b03300cdef0c384f6d5dc2afbdc140ef5b2c7de85655874ed0fe30c90b5e1",
+    "lines": 1253,
+    "frozen_utc": "2026-10-17T20:16:49.741945+00:00"
+  },
+  "lib_sha256": "e42db9f21b455ec743d0bf7ef31331d2f228ff18a1a6c7356358e18dc1744153"
+}
