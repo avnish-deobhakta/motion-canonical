@@ -1,0 +1,242 @@
+{
+  "n": 60,
+  "classes": {
+    "all": {
+      "perception_miss": [
+        19,
+        60,
+        0.31666666666666665,
+        0.21305867552366523,
+        0.44233767026176773
+      ],
+      "interpretation_miss": [
+        15,
+        60,
+        0.25,
+        0.15776522530056675,
+        0.37232070077047824
+      ],
+      "reference_not_supported": [
+        19,
+        60,
+        0.31666666666666665,
+        0.21305867552366523,
+        0.44233767026176773
+      ],
+      "ungradable_on_review": [
+        7,
+        60,
+        0.11666666666666667,
+        0.0576772064005603,
+        0.2217878802417086
+      ]
+    },
+    "eyepacs": {
+      "perception_miss": [
+        10,
+        30,
+        0.3333333333333333,
+        0.19230498083676134,
+        0.5121994835545616
+      ],
+      "interpretation_miss": [
+        7,
+        30,
+        0.23333333333333334,
+        0.11792388144489496,
+        0.40928326158122164
+      ],
+      "reference_not_supported": [
+        9,
+        30,
+        0.3,
+        0.16664748268243793,
+        0.47875787458714947
+      ],
+      "ungradable_on_review": [
+        4,
+        30,
+        0.13333333333333333,
+        0.053096554840547455,
+        0.296813266820363
+      ]
+    },
+    "other": {
+      "perception_miss": [
+        9,
+        30,
+        0.3,
+        0.16664748268243793,
+        0.47875787458714947
+      ],
+      "interpretation_miss": [
+        8,
+        30,
+        0.26666666666666666,
+        0.14182663319596317,
+        0.4444796169518888
+      ],
+      "reference_not_supported": [
+        10,
+        30,
+        0.3333333333333333,
+        0.19230498083676134,
+        0.5121994835545616
+      ],
+      "ungradable_on_review": [
+        3,
+        30,
+        0.1,
+        0.03459988874733419,
+        0.25621082579184085
+      ]
+    }
+  },
+  "eyepacs_minus_other": {
+    "reference_not_supported": [
+      -0.033333333333333326,
+      -0.2564386752010118,
+      0.19435806732732497
+    ],
+    "perception_miss": [
+      0.033333333333333326,
+      -0.19435806732732497,
+      0.2564386752010118
+    ]
+  },
+  "lesion_sensitivity": {
+    "MA": [
+      20,
+      24,
+      0.8333333333333334,
+      0.6414692935030095,
+      0.9332132367136705
+    ],
+    "HEM": [
+      22,
+      28,
+      0.7857142857142857,
+      0.6046141434627812,
+      0.8978753966710211
+    ],
+    "HE": [
+      8,
+      21,
+      0.38095238095238093,
+      0.20751011368564493,
+      0.5912134622488425
+    ],
+    "CWS": [
+      2,
+      8,
+      0.25,
+      0.071479212752109,
+      0.5907245696898311
+    ],
+    "VB": [
+      0,
+      0,
+      null,
+      null,
+      null
+    ],
+    "IRMA": [
+      0,
+      0,
+      null,
+      null,
+      null
+    ],
+    "NV": [
+      0,
+      0,
+      null,
+      null,
+      null
+    ],
+    "PVH": [
+      0,
+      0,
+      null,
+      null,
+      null
+    ],
+    "LASER": [
+      1,
+      1,
+      1.0,
+      0.20654931437723745,
+      1.0
+    ]
+  },
+  "described_not_visible": {
+    "MA": 4,
+    "HEM": 2,
+    "HE": 8,
+    "CWS": 0,
+    "VB": 0,
+    "IRMA": 0,
+    "NV": 0,
+    "PVH": 0,
+    "LASER": 2
+  },
+  "by_model": {
+    "anthropic": {
+      "interpretation_miss": 5,
+      "perception_miss": 3,
+      "reference_not_supported": 2,
+      "ungradable_on_review": 2
+    },
+    "google": {
+      "interpretation_miss": 2,
+      "perception_miss": 1,
+      "reference_not_supported": 7,
+      "ungradable_on_review": 2
+    },
+    "openai": {
+      "interpretation_miss": 4,
+      "perception_miss": 2,
+      "reference_not_supported": 5,
+      "ungradable_on_review": 1
+    },
+    "qwen": {
+      "interpretation_miss": 4,
+      "perception_miss": 4,
+      "reference_not_supported": 3,
+      "ungradable_on_review": 1
+    },
+    "xai": {
+      "interpretation_miss": 0,
+      "perception_miss": 9,
+      "reference_not_supported": 2,
+      "ungradable_on_review": 1
+    }
+  },
+  "grader_vs_reference": {
+    "0": {
+      "2": 12,
+      "3": 3,
+      "4": 3
+    },
+    "1": {
+      "2": 1,
+      "3": 0,
+      "4": 0
+    },
+    "2": {
+      "2": 22,
+      "3": 6,
+      "4": 5
+    },
+    "4": {
+      "2": 0,
+      "3": 0,
+      "4": 1
+    },
+    "ungradable": {
+      "2": 3,
+      "3": 1,
+      "4": 3
+    }
+  }
+}
