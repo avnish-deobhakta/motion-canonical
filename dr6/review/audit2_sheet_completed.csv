@@ -1,0 +1,61 @@
+case,MA,HEM,HE,CWS,VB,IRMA,NV,PVH,LASER,quality,grader_grade,notes
+C01,D,D,V,0,0,0,0,0,0,good,2,Hard exudates superiorly and near macula omitted/denied.
+C02,D,V,D,0,0,0,0,0,0,good,2,"Definite small blot haemorrhages, including temporal to macula; description understates haemorrhages."
+C03,0,0,0,V,0,0,0,0,0,limited,2,Pale fluffy superior and inferior lesions favour cotton wool spots; small discrete deposits nonspecific.
+C04,0,0,0,0,0,0,0,0,0,limited,4,Fibrotic preretinal proliferation with superior arcade traction supports fibrotic PDR; no definite active NV resolved. NV=0 refers to active vessels; fine lesions obscured.
+C05,0,0,0,0,0,0,0,0,0,good,0,
+C06,D,D,D,V,0,0,0,0,0,limited,2,Underexposed; pale fluffy lesions inferiorly favour CWS. Haemorrhages/exudates exceed mild ICDR.
+C07,D,D,X,V,0,0,0,0,0,limited,2,"Nasal pale fluffy lesion with adjacent haemorrhage favours CWS, not hard exudate; central reflection/dark speck are artifacts."
+C08,0,D,0,D,0,0,0,0,0,limited,2,Small superior arcade haemorrhage with adjacent probable CWS; haze limits fine detail.
+C09,D,D,X,0,0,0,0,0,D,limited,2,laser; peripheral round pigmented/atrophic scars favour prior laser over hard exudates. Inferior red lesion MA versus small haemorrhage.
+C10,V,V,V,0,0,0,0,0,0,limited,2,Inferonasal blot haemorrhage and scattered red dots; tiny perifoveal yellow deposits favour exudates. Description does not affirm these lesions.
+C11,D,D,V,V,0,0,0,0,0,good,2,Multiple dot/blot haemorrhages and small exudates; isolated temporal fluffy white lesion favours CWS.
+C12,D,D,D,D,0,0,0,0,0,limited,2,
+C13,V,0,V,0,0,0,0,0,0,limited,2,Small perifoveal red dot and clustered yellow deposits favour MA and hard exudates; central artifact limits confidence.
+C14,0,0,X,0,0,0,0,0,0,limited,0,Tiny foveal pale/pigment changes nonspecific; no convincing hard exudates. HE mentioned only as differential; coded X.
+C15,0,D,0,0,0,0,0,0,0,good,2,Small inferonasal vessel-adjacent flame haemorrhage; isolated haemorrhage is not specific to diabetes.
+C16,0,0,0,0,0,0,0,0,0,limited,0,Single superior pale spot indeterminate/reflex; not convincing exudate or CWS. Fine detail softer than description suggests.
+C17,D,D,V,0,0,0,0,0,0,good,2,Definite blot haemorrhages and temporal hard exudates; burden exceeds minimal MA-only disease.
+C18,0,0,X,0,0,0,0,0,0,limited,0,"No definite DR; isolated pale speck nonspecific. HE mentioned as differential, not confirmed."
+C19,D,D,V,0,0,0,0,0,X,limited,2,Few small yellow deposits favour HE. Inferotemporal scar/fibrotic change visible but not recognisable as laser; laser differential coded X. Haze limits NV exclusion.
+C20,D,D,V,0,0,0,0,0,0,limited,2,Scattered definite red lesions including inferior blot; small superior/temporal yellow deposits favour HE.
+C21,D,0,0,0,0,0,0,0,0,good,1,Isolated papillomacular MA; peripheral pale dot nonspecific.
+C22,0,0,0,0,0,0,0,0,0,limited,0,Focal foveal red change and surface reflex/distortion are not definite DR lesions; macular pathology cannot be characterised here.
+C23,D,D,D,0,0,0,0,0,0,limited,2,Inferotemporal exudate cluster and sparse red dots; glare obscures nasal retina.
+C24,0,0,0,0,0,0,0,0,0,good,0,
+C25,0,0,0,0,0,0,0,0,0,limited,0,Marked tessellation/atrophy; tiny macular flecks not confidently exudative.
+C26,D,D,V,0,0,0,0,0,0,limited,2,Multiple red lesions including blot haemorrhages; small superior hard exudate omitted.
+C27,D,D,D,0,0,0,0,0,0,limited,2,Numerous haemorrhages but severe 4-2-1 threshold not established in visible field.
+C28,0,0,0,0,0,0,0,0,0,ungradable,ungradable,"Darkness, blur and glare prevent reliable DR assessment. Lesion 0 means not resolved/not described, not confirmed absent."
+C29,D,D,X,0,0,0,0,0,X,limited,2,Temporal rounded red lesions favour small haemorrhages/MA; sharp black specks are artifacts. Pale deposits favour drusen; laser/HE alternatives unconfirmed.
+C30,0,0,0,0,0,0,0,0,0,limited,0,No definite DR; mild blur despite stated good focus.
+C31,0,0,0,0,0,0,0,0,0,limited,0,"Tessellation, nonspecific pale deposits and sharp dust specks; no definite DR."
+C32,0,0,X,0,0,0,0,0,0,limited,0,Round scattered pale deposits with macular pigment mottling favour drusen/RPE change over hard exudates; no definite diabetic vascular lesions.
+C33,X,D,0,0,0,0,0,0,0,limited,2,Temporal red lesion is large enough to favour blot haemorrhage over MA; no separate definite MA.
+C34,X,X,X,0,0,0,0,0,0,ungradable,ungradable,"Severe defocus and shadow. Suggested MA/haemorrhage/HE cannot be confirmed; X reflects nonvisibility, not proof of hallucination."
+C35,0,0,0,0,0,0,0,0,0,good,0,
+C36,0,0,0,0,0,0,0,0,0,good,0,Disc overexposure; retinal field adequately assessable.
+C37,0,0,0,0,0,0,0,0,0,limited,0,"Peripheral pale streaks/patches nonspecific; not definite CWS, exudates or laser scars."
+C38,V,V,V,0,0,0,0,0,0,good,2,"Superior yellow exudates and scattered small red lesions, including inferior/nasal lesions, omitted."
+C39,D,D,D,V,0,0,0,0,0,limited,2,Superior haemorrhage with surrounding exudates; pale paramacular patches favour small CWS. Definite lesions exceed mild NPDR.
+C40,X,D,0,0,0,0,0,0,0,limited,2,Temporal red lesion favours small blot haemorrhage rather than MA; no separate definite MA.
+C41,0,0,0,0,0,0,0,0,0,limited,0,Superior faint grey-brown patch indeterminate/pigmentary; no definite haemorrhage. Pale temporal round spot favours artifact.
+C42,D,D,D,0,0,0,0,0,0,limited,2,Temporal clustered yellow deposits favour hard exudates; sparse red lesions. Disc partly cropped.
+C43,D,D,0,0,0,0,0,0,0,limited,2,Temporal lesion is a definite small blot haemorrhage; few additional punctate red lesions.
+C44,0,0,X,0,0,0,0,0,0,ungradable,ungradable,Major temporal/macular shadow and noise prevent reliable grading. Possible HE not confirmable; lesion 0/X denotes visibility only.
+C45,0,0,D,0,0,0,0,0,0,good,2,Inferotemporal cluster favours hard exudates over drusen; no definite red lesions.
+C46,X,X,0,0,0,0,0,0,0,ungradable,ungradable,"Diffuse haze/overexposure; dark specks predominantly artifacts, suggested MA/haemorrhages unconfirmed. Cannot reliably grade."
+C47,D,D,0,0,0,0,0,0,0,limited,2,Inferofoveal red cluster includes small haemorrhagic lesions; pale foveal dots nonspecific.
+C48,0,0,V,V,0,0,0,0,0,limited,2,Small superior fluffy lesion favours CWS and superonasal yellow cluster favours HE; numerous dark specks are artifacts. Fine lesion assessment limited.
+C49,D,D,0,0,0,0,0,0,0,limited,2,Inferotemporal red cluster includes small blot haemorrhages; additional tiny superior/parafoveal red dots.
+C50,0,0,0,0,0,0,0,0,0,good,0,
+C51,0,0,0,0,0,0,0,0,0,limited,0,Macular surface reflex/pigment variation; no definite DR lesions.
+C52,0,V,V,0,0,0,0,0,0,limited,2,Superior temporal blot haemorrhage and several yellow deposits favour HE despite substantial blur; subtle vascular detail not assessable.
+C53,0,0,V,0,0,0,0,0,0,good,2,Superotemporal cluster and discrete temporal yellow deposits favour HE; round central/superior reflexes are artifacts.
+C54,0,0,0,0,0,0,0,0,0,ungradable,ungradable,Marked glare/haze prevents reliable lesion identification; pale flecks not confidently classified. 0 does not establish absence.
+C55,0,0,0,0,0,0,0,0,0,good,0,
+C56,0,0,0,0,0,0,0,0,0,ungradable,ungradable,"Large macular shadow, blur and numerous optical artifacts prevent reliable DR grading; 0 does not establish absence."
+C57,0,V,0,0,0,0,0,0,0,limited,2,Small rounded dark-red lesions at superior nasal and inferior field margins favour blot haemorrhages; low exposure limits confidence.
+C58,0,0,0,0,0,0,0,0,0,ungradable,ungradable,"Severe haze/shadow and central glare obscure retinal detail; 0 means not visible/not described, not confirmed absent."
+C59,0,0,0,0,0,0,0,0,0,limited,0,Overexposed; sharp dark specks favour dust artifacts. No definite DR in assessable retina.
+C60,V,V,V,0,0,0,0,0,0,limited,2,Inferotemporal yellow deposits and scattered small red lesions visible; large round pale spots are optical artifacts.
