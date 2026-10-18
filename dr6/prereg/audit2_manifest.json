@@ -1,0 +1,11 @@
+{
+  "amendment": "amendment_2.md",
+  "amendment_sha256": "d2e486292a8f3c0a6a9d4c258e8b4457e61dbdaec6720457c5ddecc8182c0f1a",
+  "audit_key_sha256": "d7474963212a45cf5e23d9fc2aa5d2803d23cd205c76a111ed906d93ab4d1795",
+  "audit_cases_sha256": "69ffe24b2c0809ca146f6ad0da18f83c54715f065e56a4706eacb100c29f5238",
+  "packet_sha256": "9111a503764baa9da2a444c5136698c719ee1460e3d3d9d9dfb5dae7eccee396",
+  "blank_sheet_sha256": "59da437b04788ade70d05f812d284c2ddae9512603ba97e39e33e3e862489e92",
+  "n_cases": 60,
+  "lib": "dr6-lib-0.3.1",
+  "created_utc": "2026-10-18T00:49:05.417838+00:00"
+}
