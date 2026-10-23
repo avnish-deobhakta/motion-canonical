@@ -1,0 +1,22 @@
+{
+  "study": "llm2r",
+  "lib_version": "dr6-lib-0.3.1",
+  "lib_sha256": "e42db9f21b455ec743d0bf7ef31331d2f228ff18a1a6c7356358e18dc1744153",
+  "sap_sha256": "db5eaecf4f41eeb661b9acb909a12af58bff7e431bd022ef0046539ebd902900",
+  "registry_sha256": "551dbcca5d789741476ca0d91ebcf180c7d7d8c60e5bd0010123be0334702d58",
+  "key_sha256": "214dcae4027b74972027688d7fdbe0c1ca941e01ae67ebb0102f9a770a9e033c",
+  "audit_sha256": "976974c328aa835c42c64b3f8015f999209111235cf7e00f3306b3705aec6e16",
+  "models_sha256": "bd67a08ff3d180f5e82a7631577df1fcfac619d84c9314360406f9f32f146287",
+  "n_images": 4830,
+  "by_dataset": {
+    "ddr": 1846,
+    "eyepacs": 2984
+  },
+  "seed": "llm2r-2026-10-22",
+  "n_nonsevere": 1500,
+  "f_rule": 1.31,
+  "f_fixed": {
+    "ddr": 0.25
+  },
+  "utc": "2026-10-23T23:15:14.649887+00:00"
+}
