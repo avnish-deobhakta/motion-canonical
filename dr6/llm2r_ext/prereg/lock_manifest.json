@@ -1,0 +1,20 @@
+{
+  "study": "llm2r_ext",
+  "lib_sha256": "e42db9f21b455ec743d0bf7ef31331d2f228ff18a1a6c7356358e18dc1744153",
+  "sap_sha256": "97aba001b3bc7de964c21faac205c565ca5f563c64a8494e53aa2a096573c63d",
+  "registry_sha256": "ca32455d777fce7bc3828b98d748a4a1d9b99b8817da648cf9084da14c8b457f",
+  "key_sha256": "16628dfe4abde846b644b4ac8177557785c19d4cd58f292a6c817f7fd83add05",
+  "models_sha256": "875c3b2fcbb2daa725994732f005653f99d54e1c9fc9d894aaf03ece64a7e9ed",
+  "cnn_scores_sha256": {
+    "deepdrid_ddr_densenet121_5class.csv": "9f2a3d80d0d627b9febf2b29014c807b3313a4629e8dbda10fc4e355aade8dac",
+    "deepdrid_ddr_densenet121_5class_seed1.csv": "b87fbbcb445e471c47c32d1e974148079a34423938d39956519bb2da0a409b69",
+    "deepdrid_ddr_retfound_5class.csv": "08ca269ef5c02d2d403736af41a1031f0dc22067bccaa862da0bafc63e78d2d8",
+    "deepdrid_eyepacs_densenet121_5class.csv": "c86ed4b43e7b405a522865cde6db52029838a33116ad4983de1e5189d21e111d",
+    "deepdrid_eyepacs_densenet121_5class_seed1.csv": "ad68d4ebe824255b8beccaa96631ce54656f28a4ac7b4e35435f509104ad9ae1",
+    "deepdrid_eyepacs_retfound_5class.csv": "ce503b173656470b2d69da83483d3a68c451375672be9008449ef770d07a1026"
+  },
+  "n_images": 2000,
+  "f": 0.25,
+  "seed": "llm2r-ext-2026-10-27",
+  "utc": "2026-10-28T04:13:42.338194+00:00"
+}
