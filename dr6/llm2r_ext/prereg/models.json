@@ -1,0 +1,88 @@
+{
+  "utc": "2026-10-16T05:52:59.201337+00:00",
+  "models": {
+    "anthropic": "claude-fable-5-1",
+    "openai": "gpt-6-astra",
+    "google": "gemini-4-argon",
+    "xai": "grok-4.7",
+    "jev": "typesafe/jev-1.14"
+  },
+  "served_models_at_probe": {
+    "anthropic": [
+      "claude-fable-5-1"
+    ],
+    "google": [
+      "gemini-4-argon"
+    ],
+    "openai": [
+      "gpt-6-astra"
+    ],
+    "xai": [
+      "grok-4.7"
+    ]
+  },
+  "qwen": {
+    "model_id": "Qwen/Qwen3.8-27B",
+    "revision": null
+  },
+  "jev_text_ok": true,
+  "jev_image_ok": true,
+  "lib_version": "dr6-lib-0.3.1",
+  "jev_served": "typesafe/jev-1.14-20261014",
+  "jev_checked_utc": "2026-10-16T19:27:25.511544+00:00",
+  "study": "llm2r_ext",
+  "copied_from": "dr6/config/models.json (DR6 probe of 16 Oct 2026)",
+  "copied_utc": "2026-10-23",
+  "jev_snapshot_pinned": "typesafe/jev-1.14-20261014",
+  "primary_llm_partner": "google",
+  "secondary_llm_partners": [
+    "openai",
+    "xai",
+    "anthropic",
+    "qwen"
+  ],
+  "note": "cnn_readers and populations are appended by the lock cell of llm2r_01_audit_and_sample_v4; qwen revision is read from dr6/config/qwen_revision.json by notebook 02",
+  "cnn_readers": {
+    "A_eyepacs": {
+      "source": "eyepacs",
+      "tag": "densenet121_5class"
+    },
+    "A_ddr": {
+      "source": "ddr",
+      "tag": "densenet121_5class"
+    },
+    "B_nonsib_for_A_eyepacs": {
+      "source": "ddr",
+      "tag": "densenet121_5class"
+    },
+    "B_nonsib_for_A_ddr": {
+      "source": "eyepacs",
+      "tag": "densenet121_5class"
+    },
+    "B_sib_for_A_eyepacs": {
+      "source": "eyepacs",
+      "tag": "densenet121_5class_seed1"
+    },
+    "B_sib_for_A_ddr": {
+      "source": "ddr",
+      "tag": "densenet121_5class_seed1"
+    },
+    "retfound_for_A_eyepacs": {
+      "source": "eyepacs",
+      "tag": "retfound_5class"
+    },
+    "retfound_for_A_ddr": {
+      "source": "ddr",
+      "tag": "retfound_5class"
+    }
+  },
+  "populations": {
+    "eyepacs": [
+      "fresh",
+      "kt_confirmation"
+    ],
+    "ddr": "ddr_trained_test_split"
+  },
+  "population": "deepdrid_regular_2000",
+  "primary_score": "meanrepeat"
+}
