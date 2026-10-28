@@ -1,0 +1,106 @@
+{
+  "study": "llm2r_ext",
+  "plan": "SAP_llm2r_ext_v1",
+  "lock_utc": "2026-10-28T04:13:42.338194+00:00",
+  "scores_freeze_utc": "2026-10-28T17:05:53.695426+00:00",
+  "n_eyes": 2000,
+  "n_patients": 500,
+  "first_reader_misses": {
+    "A_eyepacs": 144,
+    "A_ddr": 161
+  },
+  "confirmatory": true,
+  "H1": {
+    "pooled_rescue_diff": 0.04262295081967213,
+    "ci95": [
+      -0.04379870289998027,
+      0.14403247863247845
+    ],
+    "supported": false,
+    "by_first_reader": [
+      {
+        "first_reader": "A_eyepacs",
+        "severe_misses": 144,
+        "rescue_gemini": 0.375,
+        "rescue_cnn": 0.2916666666666667,
+        "diff": 0.08333333333333331,
+        "ci_lo": -0.025016025641025664,
+        "ci_hi": 0.19812220941955924,
+        "gemini_only": 41,
+        "cnn_only": 29,
+        "p_mcnemar": 0.18821620302302766,
+        "pair_misses_gemini": 168,
+        "pair_misses_cnn": 138
+      },
+      {
+        "first_reader": "A_ddr",
+        "severe_misses": 161,
+        "rescue_gemini": 0.37267080745341613,
+        "rescue_cnn": 0.36645962732919257,
+        "diff": 0.006211180124223559,
+        "ci_lo": -0.08823529411764708,
+        "ci_hi": 0.12766808510638294,
+        "gemini_only": 37,
+        "cnn_only": 36,
+        "p_mcnemar": 1.0,
+        "pair_misses_gemini": 173,
+        "pair_misses_cnn": 138
+      }
+    ]
+  },
+  "H2": {
+    "tested": false,
+    "svl_avoided_per10k": -2.266875,
+    "ci95_per10k": [
+      -5.541589843750001,
+      0.3170937499999969
+    ],
+    "parameter_range_per10k": [
+      -1.1049999999999989,
+      -3.42875
+    ],
+    "supported": false
+  },
+  "H3": [
+    {
+      "llm": "GPT-6",
+      "pooled_diff": -0.1737704918032787,
+      "ci_lo": -0.262460716530484,
+      "ci_hi": -0.09034217666566174,
+      "p_boot": 0.0,
+      "p_holm": 0.0,
+      "supported": false
+    },
+    {
+      "llm": "Claude",
+      "pooled_diff": 0.18360655737704917,
+      "ci_lo": 0.10069186030485956,
+      "ci_hi": 0.2669201102210567,
+      "p_boot": 0.0,
+      "p_holm": 0.0,
+      "supported": true
+    },
+    {
+      "llm": "Qwen",
+      "pooled_diff": -0.05245901639344262,
+      "ci_lo": -0.13757166211313657,
+      "ci_hi": 0.024876784302785136,
+      "p_boot": 0.196,
+      "p_holm": 0.392,
+      "supported": false
+    },
+    {
+      "llm": "Grok",
+      "pooled_diff": -0.03278688524590164,
+      "ci_lo": -0.12914057018669678,
+      "ci_hi": 0.06396323025126249,
+      "p_boot": 0.532,
+      "p_holm": 0.532,
+      "supported": false
+    }
+  ],
+  "n_boot": 2000,
+  "boot_seed": 20261022,
+  "lib_sha256": "e42db9f21b455ec743d0bf7ef31331d2f228ff18a1a6c7356358e18dc1744153",
+  "utc": "2026-10-28T19:01:19.030118+00:00"
+}
