@@ -1,0 +1,33 @@
+{
+  "api": {
+    "path": "retina_image_ai/llm2r_ext/runs/stage1_api/calls.jsonl",
+    "sha256": "3e02e622d49c513bdb0a9dd08a204048691c81bc8a57ef22914574863bb1290b",
+    "lines": 32000,
+    "frozen_utc": "2026-10-28T16:57:16.985475+00:00"
+  },
+  "qwen": {
+    "path": "retina_image_ai/llm2r_ext/runs/stage1_qwen/calls.jsonl",
+    "sha256": "ae088af0e7c840184a8e510cf784947a5243bbb7a5f4276116ee9f55a1037bd1",
+    "lines": 8000,
+    "frozen_utc": "2026-10-28T16:57:17.514180+00:00"
+  },
+  "served_models": {
+    "anthropic": [
+      "claude-fable-5-1"
+    ],
+    "openai": [
+      "gpt-6-astra"
+    ],
+    "google": [
+      "gemini-4-argon"
+    ],
+    "xai": [
+      "grok-4.7"
+    ],
+    "qwen": [
+      "Qwen/Qwen3.8-27B@1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0"
+    ]
+  },
+  "lib_sha256": "e42db9f21b455ec743d0bf7ef31331d2f228ff18a1a6c7356358e18dc1744153",
+  "utc": "2026-10-28T16:57:17.516542+00:00"
+}
